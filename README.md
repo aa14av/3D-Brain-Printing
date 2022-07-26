@@ -2,15 +2,16 @@
 
 *Requires Freesurfer and MeshLab
 
-Run fs_brain.sbatch on HiperGator
+1. Run fs_brain.sbatch on HiperGator
 
-Now, open cortical.stl and subcortical.stl in meshlab
-Perform a Filters -> Smoothing, Fairing, and Deformantion -> ScaleDependent Laplacian Smoothing Filter
-Smoothing Steps = 100
-Delta abs = 0.02528 + Delta % = 0.1
-Affect only selected faces = FALSE
+2. Open cortical.stl and subcortical.stl in meshlab
 
-Then
+3. Perform a Filters -> Smoothing, Fairing, and Deformantion -> ScaleDependent Laplacian Smoothing Filter
+  *Smoothing Steps = 100
+  *Delta abs = 0.02528 + Delta % = 0.1
+  *Affect only selected faces = FALSE
 
-Then File -> Export Mesh
-Binary encoding = TRUE
+4. Then
+
+5. File -> Export Mesh
+  *Binary encoding = TRUE
