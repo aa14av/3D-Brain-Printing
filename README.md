@@ -2,7 +2,7 @@
 
 *Requires Freesurfer and MeshLab
 
-1. Run fs_brain.sbatch on HiperGator
+1. Run fs_brain.sbatch on HiperGator `sbatch fs_brain.sbatch`
 
 2. Open cortical.stl and subcortical.stl in meshlab
 
