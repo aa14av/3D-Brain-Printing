@@ -1,6 +1,6 @@
 # 3D-Brain-Printing
 
-*Requires Freesurfer and MeshLab
+>Requires MeshLab (https://www.meshlab.net/#download)
 
 1. Run fs_brain.sbatch on HiperGator `sbatch fs_brain.sbatch`
 
