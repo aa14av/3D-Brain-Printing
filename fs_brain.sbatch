@@ -44,14 +44,3 @@ mri_tessellate $SUBJECTS_DIR/${SUBJECT}/subcortical_bin.nii.gz 1 $SUBJECTS_DIR/$
 
 # Convert to stl
 mris_convert $SUBJECTS_DIR/${SUBJECT}/subcortical $SUBJECTS_DIR/${SUBJECT}/subcortical.stl
-
-# Now, open cortical.stl and subcortical.stl in meshlab
-# Perform a Filters -> Smoothing, Fairing, and Deformantion -> ScaleDependent Laplacian Smoothing Filter
-# Smoothing Steps = 100
-# Delta abs = 0.02528 + Delta % = 0.1
-# Affect only selected faces = FALSE
-#
-# Then
-#
-# Then File -> Export Mesh
-# Binary encoding = TRUE
