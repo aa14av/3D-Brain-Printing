@@ -7,8 +7,8 @@
 #SBATCH --output=job.%j.out
 
 ml freesurfer/7.1.1
-SUBJECTS_DIR=/blue/camctrp/working/Alejandro/LAB_T1s
-SUBJECT=PILOT1-GABA-GSH
+SUBJECTS_DIR=#SUBJECT DIRECTORY
+SUBJECT=#SUBJECT NAME
 
 # Perform Freesurfer Reconstruction
 recon-all -s ${SUBJECT} -i $SUBJECTS_DIR/$SUBJECT.nii -all -nuintensitycor-3T -parallel
