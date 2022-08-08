@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=freesurf
-#SBATCH --account=camctrp
-#SBATCH --qos=camctrp
+#SBATCH --job-name=#HIPERGATOR JOB NAME
+#SBATCH --account=#HIPERGATOR ACCOUNT
+#SBATCH --qos=#HIPERGATOR QOS
 #SBATCH --mem=10gb
 #SBATCH --time=48:00:00
 #SBATCH --output=job.%j.out
