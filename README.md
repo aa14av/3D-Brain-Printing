@@ -3,7 +3,7 @@
 >Requires MeshLab (https://www.meshlab.net/#download)
 
 1. Run fs_brain.sbatch on HiperGator `sbatch fs_brain.sbatch`
-- Before executing, be sure to edit the script to include your hipergator account and filepath
+- *Before executing, be sure to edit the script to include your hipergator account and filepath*
 
 2. Open cortical.stl and subcortical.stl in meshlab
 
