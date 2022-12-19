@@ -19,4 +19,5 @@
 5. File -> Export Mesh
 - Binary encoding = TRUE
 
-6. The output .stl file can be submitted to the UF library for 3D printing (https://3dprint.uflib.ufl.edu/request-3d-printing/)
+6. The output .stl file can be submitted to the UF library for 3D printing 
+- https://3dprint.uflib.ufl.edu/request-3d-printing/
